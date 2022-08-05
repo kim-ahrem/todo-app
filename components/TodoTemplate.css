@@ -1,0 +1,43 @@
+.TodoTemplate {
+  width: 512px;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #fff;
+}
+.TodoTemplate > .app-title {
+    background: #262626;
+    color: rgb(255, 255, 255);
+    height: 150px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+   
+  }
+  .TodoTemplate > .app-footer {
+    background: #262626;
+    color: white;
+    height: 60px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+ 
+.TodoTemplate >  .content {
+    background: white;
+  }
+  .TodoTemplate .imwidth {
+    width: 100%;
+    position: absolute;
+    opacity: 0.4;
+  }
